@@ -2,7 +2,6 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
 
-const dev = "production" === "development";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -14,7 +13,7 @@ const config = {
         }),
 		paths: {
             
-            base: dev ? "" : "/techsauna",
+            base: "/techsauna",
         },
 	},
 	preprocess: vitePreprocess()
