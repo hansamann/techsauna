@@ -119,4 +119,7 @@
         Join us on Mastodon!
       </a>
     </section>
+    <div class="hidden">
+        <a rel="me" href="https://muenchen.social/@techsauna">Mastodon</a>
+    </div>
   </body>
