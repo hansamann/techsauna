@@ -1,11 +1,11 @@
 <script>
-    import Nav from '../components/Nav.svelte';
+    const invite = 'https://muenchen.social/invite/Ygp4Uheb';
 </script>
 
 <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
     <!--Hero-->
     <div class="">
-      <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+      <div class="container mt-5 px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
           <p class="uppercase tracking-loose w-full">When's the next meetup?</p>
@@ -15,7 +15,7 @@
           <p class="leading-normal text-2xl mb-8">
             We meet in Sauna's in and around Munich to talk tech. No gadgets allowed.
           </p>
-          <a href="#" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <a href="{invite}" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             Join us on Mastodon!
           </a>
         </div>
@@ -115,8 +115,8 @@
       </g>
     </svg>
     <section class="container mx-auto text-center py-6 mb-12">
-      <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+      <a href="{invite}" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
         Join us on Mastodon!
-      </button>
+      </a>
     </section>
   </body>
