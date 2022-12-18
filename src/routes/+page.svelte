@@ -59,7 +59,7 @@
                 Monthly meet-ups!
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                We meet every month at a sauna in or around Munich. Join us on Mastodon and say 'Hi' - use #techsauna and we'll get in touch. 
+                We meet every month at a sauna in or around Munich. Join us on Mastodon and say 'Hi' via <a class="underline hover:bg-pink-300" href="{invite}">@techsauna@muenchen.social</a> and we'll get in touch. 
               </p>
             </a>
           </div>
