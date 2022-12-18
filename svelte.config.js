@@ -12,7 +12,6 @@ const config = {
         }),
 		paths: {
             
-            //base: "/techsauna",
         },
 	},
 	preprocess: vitePreprocess()
