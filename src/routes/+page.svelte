@@ -10,7 +10,7 @@
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
           <p class="uppercase tracking-loose w-full">When's the next meetup?</p>
           <h1 class="my-4 text-5xl font-bold leading-tight">
-            Dec 20, 2022 - 17:30
+            Jan 17, 2023 - 17:30
           </h1>
           <p class="leading-normal text-2xl mb-8">
             We meet at the beautiful <a class="underline" href="https://www.seebad-starnberg.de/">Seebad Starnberg</a> sauna with (fresh) lake access!
