@@ -1,5 +1,8 @@
 <script>
     const invite = 'https://muenchen.social/invite/Ygp4Uheb';
+    const datetime = 'Jan 17, 2023 - 17:30'
+    const location = 'Seebad Starnberg'
+    const locationLink = 'https://www.seebad-starnberg.de/'
 </script>
 
 <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
@@ -10,10 +13,10 @@
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
           <p class="uppercase tracking-loose w-full">When's the next meetup?</p>
           <h1 class="my-4 text-5xl font-bold leading-tight">
-            Jan 17, 2023 - 17:30
+            {datetime}
           </h1>
           <p class="leading-normal text-2xl mb-8">
-            We meet at the beautiful <a class="underline" href="https://www.seebad-starnberg.de/">Seebad Starnberg</a> sauna with (fresh) lake access!
+            We meet at the beautiful <a class="underline" href="{locationLink}">{location}</a> sauna with (fresh) lake access!
           </p>
           <a href="{invite}" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             Join us on Mastodon!
@@ -54,39 +57,35 @@
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full font-bold text-xl text-gray-800 px-6 pt-6">
                 Monthly meet-ups!
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                We meet every month at a sauna in or around Munich. Join us on Mastodon and say 'Hi' via <a class="underline hover:bg-pink-300" href="{invite}">@techsauna@muenchen.social</a> and we'll get in touch. 
+                We meet every month at a sauna in or around Munich. We typically discuss where and when to meet next via Mastodon, so
+                <a class="underline hover:bg-pink-300" href="{invite}">join us!</a> Say 'hi' and then simply come to our next meetup on {datetime} at <a class="underline hover:bg-pink-300" href="{locationLink}">{location}</a>. 
               </p>
-            </a>
           </div>
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full font-bold text-xl text-gray-800 px-6 pt-6">
-                Inclusive and open to all!
+                Our community
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Tech Sauna is open to all and inclusive. We will not tolerate any kind of sexism, harrassment or other negative behavior. 
+                Tech Sauna is open to all and inclusive. We are a community of, and in solidarity with, people from every gender identity and expression, sexual orientation, race, ethnicity, language, neuro-type, size, disability, class, religion, culture, subculture, political opinion, age, skill level, occupation, and background.
+                We welcome you!
               </p>
-            </a>
           </div>
 
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full font-bold text-xl text-gray-800 px-6 pt-6">
                 Tech & Sauna
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Our common passions are technology and a good sweat. Let's discuss the latest trends and the influence of tech on society. 
+                Our common passions are technology and a good sweat. Let's discuss the latest trends and technologies, but let's not stop there. What the influences of tech on our lives, our families our society? When will robots take over? Is crypto the solution or the problem?
               </p>
-            </a>
           </div>
         </div>
       </div>
