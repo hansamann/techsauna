@@ -84,7 +84,9 @@
                 Tech & Sauna
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Our common passions are technology and a good sweat. Let's discuss the latest trends and technologies, but let's not stop there. What the influences of tech on our lives, our families our society? When will robots take over? Is crypto the solution or the problem?
+                Our common passions are technology and a good sweat. 
+                Let's discuss the latest trends and technologies, but let's not stop there. 
+                How does technology influence our lives, our families our society?
               </p>
           </div>
         </div>
