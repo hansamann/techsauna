@@ -6,7 +6,28 @@
 </script>
 
 <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
-    <!--Hero-->
+  <!-- header nav -->
+  <header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a href="https://nopants.dev" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <img src="/bucket.svg" class="w-12 h-12 text-white p-2 bg-black rounded-full" alt="TechSauna Bucket"/>
+      <span class="ml-3 text-xl">Munich Tech Sauna</span>
+    </a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+      <a href="https://www.reddit.com/r/munichtechsauna/" target="_blank" class="mr-5 hover:text-gray-900">Reddit</a>
+      <a href="https://muenchen.social/invite/Ygp4Uheb" target="_blank" class="mr-5 hover:text-gray-900">Mastodon</a>
+      <a href="https://muenchen.social/@techsauna.rss" target="_blank" class="mr-5 hover:text-gray-900">RSS</a>
+      
+    </nav>
+    <!--<button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
+    -->
+  </div>
+</header>  
+  <!--Hero-->
     <div class="">
       <div class="container mt-5 px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
