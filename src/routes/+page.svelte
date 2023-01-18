@@ -1,8 +1,8 @@
 <script>
     const invite = 'https://muenchen.social/invite/Ygp4Uheb';
-    const datetime = 'Jan 17, 2023 - 17:30'
-    const location = 'Seebad Starnberg'
-    const locationLink = 'https://www.seebad-starnberg.de/'
+    const datetime = 'Feb 16, 2023 - 17:30'
+    const location = 'Müller’sches Volksbad '
+    const locationLink = 'https://www.swm.de/baeder/schwimmen-sauna/muellersches-volksbad'
 </script>
 
 <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
@@ -37,7 +37,7 @@
             {datetime}
           </h1>
           <p class="leading-normal text-2xl mb-8">
-            We meet at the beautiful <a class="underline" href="{locationLink}">{location}</a> sauna with (fresh) lake access!
+            We meet at the entrance of the beautiful <a class="underline" href="{locationLink}">{location}</a> sauna!
           </p>
           <a href="{invite}" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             Join us on Mastodon!
