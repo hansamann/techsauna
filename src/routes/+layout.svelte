@@ -10,8 +10,6 @@
 	<title> Munich Tech Sauna </title>
 	<meta name="description" content="Munich Tech Sauna" />
 	<meta name="keywords" content="tech, sauna, munich" />
-
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
 </head>
 
 <slot />
