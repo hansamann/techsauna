@@ -27,28 +27,8 @@
     -->
   </div>
 </header>  
-  <!--Hero-->
-    <div class="">
-      <div class="container mt-5 px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-        <!--Left Col-->
-        <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-          <p class="uppercase tracking-loose w-full">When's the next meetup?</p>
-          <h1 class="my-4 text-5xl font-bold leading-tight">
-            {datetime}
-          </h1>
-          <p class="leading-normal text-2xl mb-8">
-            We meet at the entrance of the beautiful <a class="underline" href="{locationLink}">{location}</a> sauna!
-          </p>
-          <a href="{invite}" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-            Join us on Mastodon!
-          </a>
-        </div>
-        <!--Right Col-->
-        <div class="w-full md:w-3/5 py-6 text-center">
-          <img class="w-full md:w-4/5 z-50 float-right" src="techsauna.png" />
-        </div>
-      </div>
-    </div>
+
+
     <div class="relative -mt-12 lg:-mt-24">
       <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -71,7 +51,7 @@
     <section class="bg-white border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Munich Tech Sauna
+          Imprint / Impressum
         </h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -79,22 +59,24 @@
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
               <div class="w-full font-bold text-xl text-gray-800 px-6 pt-6">
-                Monthly meet-ups!
+                Data according to § 5 TMG<br>Angaben gemäß § 5 TMG
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                We meet every month at a sauna in or around Munich. We typically discuss where and when to meet next via Mastodon, so
-                <a class="underline hover:bg-pink-300" href="{invite}">join us!</a> Say 'hi' and then simply come to our next meetup on {datetime} at <a class="underline hover:bg-pink-300" href="{locationLink}">{location}</a>. 
+                Sven Haiges<br>
+                Buchenstr. 24<br>
+                82178 Puchheim<br>
+                Germany
               </p>
           </div>
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
               <div class="w-full font-bold text-xl text-gray-800 px-6 pt-6">
-                Our community
+                Contact<br>Kontakt
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Tech Sauna is open to all and inclusive. We are a community of, and in solidarity with, people from every gender identity and expression, sexual orientation, race, ethnicity, language, neuro-type, size, disability, class, religion, culture, subculture, political opinion, age, skill level, occupation, and background.
-                We welcome you!
+                Phone/Telefon: +49 (0) 176-55786080<br>
+                E-Mail: 1a10pes6@duck.com
               </p>
           </div>
 
@@ -102,12 +84,12 @@
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
               <div class="w-full font-bold text-xl text-gray-800 px-6 pt-6">
-                Tech & Sauna
+                Responsible for the content<br>Redaktionell verantwortlich
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Our common passions are technology and a good sweat. 
-                Let's discuss the latest trends and technologies, but let's not stop there. 
-                How does technology influence our lives, our families our society?
+                Sven Haiges<br>
+                Source/Quelle:
+                <a href="https://www.e-recht24.de/" target="_blank">e-recht24.de</a>
               </p>
           </div>
         </div>
