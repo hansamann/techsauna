@@ -1,8 +1,5 @@
 <script>
     const invite = 'https://muenchen.social/invite/Ygp4Uheb';
-    const datetime = 'Feb 16, 2023 - 17:30'
-    const location = 'Müller’sches Volksbad '
-    const locationLink = 'https://www.swm.de/baeder/schwimmen-sauna/muellersches-volksbad'
 </script>
 
 <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
