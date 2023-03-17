@@ -1,4 +1,5 @@
 <script>
+	import NavLinks from '/src/components/NavLinks.svelte';
     const invite = 'https://muenchen.social/invite/Ygp4Uheb';
 </script>
 
@@ -11,10 +12,7 @@
       <span class="ml-3 text-xl">Munich Tech Sauna</span>
     </a>
     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-      <a href="https://www.reddit.com/r/munichtechsauna/" target="_blank" class="mr-5 hover:text-gray-900">Reddit</a>
-      <a href="https://muenchen.social/invite/Ygp4Uheb" target="_blank" class="mr-5 hover:text-gray-900">Mastodon</a>
-      <a href="https://muenchen.social/@techsauna.rss" target="_blank" class="mr-5 hover:text-gray-900">RSS</a>
-      
+      <NavLinks/>
     </nav>
     <!--<button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
@@ -127,9 +125,7 @@
           <span class="ml-3 text-xl">Munich Tech Sauna</span>
         </a>
         <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a href="https://www.reddit.com/r/munichtechsauna/" target="_blank" class="mr-5 hover:text-gray-900">Reddit</a>
-          <a href="https://muenchen.social/invite/Ygp4Uheb" target="_blank" class="mr-5 hover:text-gray-900">Mastodon</a>
-          <a href="https://muenchen.social/@techsauna.rss" target="_blank" class="mr-5 hover:text-gray-900">RSS</a>
+          <NavLinks/>
           <a href="./imprint" class="mr-5 hover:text-gray-900">Imprint</a>
         </nav>
     
