@@ -1,8 +1,8 @@
 <script>
     const invite = 'https://muenchen.social/invite/Ygp4Uheb';
-    const datetime = 'Mar 16, 2023 - 17:30'
-    const location = 'Phönix-Bad'
-    const locationLink = 'https://phoenixbad.de/'
+    const datetime = 'Apr 20, 2023 - 17:30'
+    const location = 'Cosimawellenbad'
+    const locationLink = 'https://www.swm.de/baeder/schwimmen-sauna/cosimawellenbad'
 </script>
 
 <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
@@ -93,8 +93,8 @@
                 Our community
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Tech Sauna is open to all and inclusive. We are a community of, and in solidarity with, people from every gender identity and expression, sexual orientation, race, ethnicity, language, neuro-type, size, disability, class, religion, culture, subculture, political opinion, age, skill level, occupation, and background.
-                We welcome you!
+                Tech Sauna is open to all and inclusive. We are a community of, and in solidarity with, people from every gender identity and expression, sexual orientation, race, ethnicity or language.
+                To get most of our community, introduce yourself before we meet. For example, just <a class="underline hover:bg-pink-300" href="https://www.reddit.com/r/munichtechsauna/comments/zv6kkp/new_members_intro/?utm_source=share&utm_medium=web2x&context=3">comment on this Reddit post</a> to say hi!
               </p>
           </div>
 
