@@ -2,9 +2,9 @@
 	import NavLinks from '/src/components/NavLinks.svelte';
 
 	const inviteMastodon = 'https://muenchen.social/invite/Ygp4Uheb';
-	const datetime = 'May 18, 2023 - 14:30';
-	const location = 'Therme Erding';
-	const locationLink = 'https://www.therme-erding.de/therme-sauna/vitaltherme-saunen/';
+	const datetime = 'Jun 15 2023 - 17:30';
+	const location = 'Michaelibad';
+	const locationLink = 'https://www.swm.de/baeder/schwimmen-sauna/michaelibad';
 </script>
 
 <body
