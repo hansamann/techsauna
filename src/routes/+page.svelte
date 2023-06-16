@@ -2,9 +2,9 @@
 	import NavLinks from '/src/components/NavLinks.svelte';
 
 	const inviteMastodon = 'https://muenchen.social/invite/Ygp4Uheb';
-	const datetime = 'Jun 15 2023 - 17:30';
-	const location = 'Michaelibad';
-	const locationLink = 'https://www.swm.de/baeder/schwimmen-sauna/michaelibad';
+	const datetime = 'Jul 20 2023 - 17:30';
+	const location = 'Seebad Starnberg';
+	const locationLink = 'https://www.seebad-starnberg.de/hallenbad-strandbad-sauna';
 </script>
 
 <body
