@@ -2,9 +2,9 @@
 	import NavLinks from '/src/components/NavLinks.svelte';
 
 	const inviteMastodon = 'https://muenchen.social/invite/Ygp4Uheb';
-	const datetime = 'Jul 20 2023 - 17:30';
-	const location = 'Seebad Starnberg';
-	const locationLink = 'https://www.seebad-starnberg.de/hallenbad-strandbad-sauna';
+	const datetime = 'Sep 23 2023 - 17:30';
+	const location = 'Munich Isarauen';
+	const locationLink = 'https://goo.gl/maps/g1c6HLBLz6NCySvk8';
 </script>
 
 <body
@@ -44,9 +44,9 @@
 					{datetime}
 				</h1>
 				<p class="leading-normal text-2xl mb-8">
-					We meet at the entrance of the beautiful <a class="underline" href={locationLink}
+					We meet at <a class="underline" href={locationLink}
 						>{location}</a
-					> sauna!
+					> for a special pants-on meetup - feel free to bring beers and something to grill!
 				</p>
 				<a
 					href={inviteMastodon}
