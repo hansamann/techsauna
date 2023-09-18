@@ -2,9 +2,9 @@
 	import NavLinks from '/src/components/NavLinks.svelte';
 
 	const inviteMastodon = 'https://muenchen.social/invite/Ygp4Uheb';
-	const datetime = 'Sep 23 2023 - 17:30';
-	const location = 'Munich Isarauen';
-	const locationLink = 'https://goo.gl/maps/g1c6HLBLz6NCySvk8';
+	const datetime = 'Oct 19 2023 - 17:30';
+	const location = 'Olympia Schwimmhalle';
+	const locationLink = 'https://www.swm.de/baeder/schwimmen-sauna/olympia-schwimmhalle';
 </script>
 
 <body
@@ -44,9 +44,9 @@
 					{datetime}
 				</h1>
 				<p class="leading-normal text-2xl mb-8">
-					We meet at <a class="underline" href={locationLink}
+					We meet at the entrance of the <a class="underline" href={locationLink}
 						>{location}</a
-					> for a special pants-on meetup - feel free to bring beers and something to grill!
+					> sauna. 
 				</p>
 				<a
 					href={inviteMastodon}
