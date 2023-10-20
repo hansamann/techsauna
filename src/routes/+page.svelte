@@ -2,9 +2,9 @@
 	import NavLinks from '/src/components/NavLinks.svelte';
 
 	const inviteMastodon = 'https://muenchen.social/invite/Ygp4Uheb';
-	const datetime = 'Oct 19 2023 - 17:30';
-	const location = 'Olympia Schwimmhalle';
-	const locationLink = 'https://www.swm.de/baeder/schwimmen-sauna/olympia-schwimmhalle';
+	const datetime = 'Nov 16 2023 - 17:30';
+	const location = 'Dantebad';
+	const locationLink = 'https://www.swm.de/baeder/schwimmen-sauna/dantebad';
 </script>
 
 <body
