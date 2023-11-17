@@ -2,9 +2,9 @@
 	import NavLinks from '/src/components/NavLinks.svelte';
 
 	const inviteMastodon = 'https://muenchen.social/invite/Ygp4Uheb';
-	const datetime = 'Nov 16 2023 - 17:30';
-	const location = 'Dantebad';
-	const locationLink = 'https://www.swm.de/baeder/schwimmen-sauna/dantebad';
+	const datetime = 'Dec 21 2023 - 17:30';
+	const location = 'PhoenixBad';
+	const locationLink = 'https://phoenixbad.de/sauna/';
 </script>
 
 <body
